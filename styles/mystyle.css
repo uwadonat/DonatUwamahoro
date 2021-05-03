@@ -1,0 +1,11 @@
+.imageTransition {
+    
+    width: 250px;
+    height: 150px;
+    transition: 2s;
+}
+
+.imageTransition:hover {
+    width: 350px;
+    height: 200px;
+}
