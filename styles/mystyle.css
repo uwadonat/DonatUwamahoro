@@ -9,3 +9,28 @@
     width: 350px;
     height: 200px;
 }
+
+.skill {
+    width: 150px;
+   
+    
+}
+
+.btnn {
+    margin-bottom: 20px;
+}
+
+.go {
+    height: 300px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.skillTitle {
+    color: sandybrown;
+    font-weight: 400px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+ 
+}
