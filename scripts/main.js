@@ -1,4 +1,4 @@
-
+const pendings = document.getElementById("notDone")
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -9,5 +9,9 @@ myImage.onclick = function() {
       myImage.setAttribute('src','images/image7.jpg');
     }
 }
+
+pendings.addEventListener("hover", () => {
+  alert("sorry, not yet");
+})
 
 
