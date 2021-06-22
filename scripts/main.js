@@ -10,7 +10,7 @@ myImage.onclick = function() {
     }
 }
 
-pendings.addEventListener("hover", () => {
+pendings.addEventListener("mouseover", () => {
   alert("sorry, not yet");
 })
 
