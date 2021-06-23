@@ -38,3 +38,12 @@
 #logodonat:hover {
     color: blue;
 }
+
+
+/* footer style */
+
+.footer-logo:hover {
+    color: black !important;
+    text-decoration: none;
+ 
+}
