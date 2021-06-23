@@ -44,6 +44,13 @@
 }
 
 
+/* navbar */
+.main-link:hover {
+    background-color: tomato;
+    border-radius: 3px;
+}
+
+
 /* footer style */
 
 .footer-logo:hover {
@@ -60,5 +67,5 @@
 }
 
 .social-icon:hover {
-    background-color:yellow;
+    background-color:tomato;
 }
