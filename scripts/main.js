@@ -21,13 +21,9 @@ for (let i= 0; i<sections.length; i++) {
   sections[i].addEventListener("mouseover", () => {
     mainLink[i].style.backgroundColor = "tomato";
   })
- 
+  
 
 }
 
-
- 
-
-}
 
 
