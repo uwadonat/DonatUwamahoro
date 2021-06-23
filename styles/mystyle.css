@@ -58,3 +58,7 @@
     border-radius: 50px;
   border-color: blue;
 }
+
+.social-icon:hover {
+    background-color:yellow;
+}
