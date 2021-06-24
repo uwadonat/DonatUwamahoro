@@ -55,7 +55,9 @@
 }
 
 /* footer style */
-
+.section-title {
+    color: black !important;
+}
 .footer-logo:hover {
     color: black !important;
     text-decoration: none;
