@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
@@ -49,7 +50,167 @@
              <!-- about me start -->
 
             <section class="sections" id="aboutMe" class="container-fluid p-3 my-3 bg-info text-white">
-                <h2 class="text-center">About me</h2>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center mb-4 pb-2">
+                                <div class="mb-5">
+                                    <i class="mdi mdi-account-settings h1 text-muted"></i>
+                                </div>
+                                <h3><i class="mdi mdi-account" aria-hidden="true"></i>About me</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-4 pt-2">
+                        <div>
+                            <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="story-tab" data-toggle="tab" href="#story" role="tab"
+                                        aria-controls="story" aria-selected="true">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="skill-tab" data-toggle="tab" href="#skill" role="tab"
+                                        aria-controls="skill" aria-selected="false">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="resume-tab" data-toggle="tab" href="#resume" role="tab"
+                                        aria-controls="resume" aria-selected="false">Resume</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="story" role="tabpanel" aria-labelledby="story-tab">
+                                    <div class="text-center">
+                                        <div class="about-img mt-5 mb-5">
+                                            <img src="./images/IMG_2120.JPG" alt=""
+                                                class="img-fluid mx-auto d-block rounded-circle">
+                                        </div>
+                                        <h3 class="mb-3">Uduak John <small class="text-muted"> - Full-Stack
+                                                Developer</small></h3>
+                                        <p class="text-muted"> Whether figuring out a difficult problem or crafting a 
+                                            beautiful user experience, 
+                                        as a Full Stack Developer, programming
+                                        satisfies my desire for both constant 
+                                        learning and personal ongoing refinement. </p>
+                                        <p class="text-muted">
+                                            Click below download my Resume </p>
+        
+                                        <div class="mt-5">
+                                            <a download href="./docs/Resume.pdf"
+                                                class="btn btn-outline btn-round">View Resume <i
+                                                    class="mdi mdi-download ml-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="skill" role="tabpanel" aria-labelledby="skill-tab">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-4">
+                                            <div class="skills text-center">
+                                                <div class="mt-5 mb-5">
+        
+                                                    <hr>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <h6>Front-End</h6>
+                                                        <p class="text-muted">JavaScript, React, Redux, jQuery, HTML5, CSS3</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Back-End</h6>
+                                                        <p class="text-muted">Ruby, Rails, SQLite3, PostgreSQL</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Tools & Methods</h6>
+                                                        <p class="text-muted">Git, GitHub, Heroku, Vercel, Netlify, Mobile/Responsive
+                                                            Development, RSpec, TDD, Chrome Dev Tools
+                                                        </p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Professional</h6>
+                                                        <p class="text-muted">Remote Pair-Programming, Teamwork, Mentoring</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="resume" role="tabpanel" aria-labelledby="resume-tab">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="experiences">
+                                                <div class="mt-5 mb-5">
+                                                    <h5 class="font-weight-bold text-center text-custom">Experiences</h5>
+                                                    <hr>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <h6>Mentor (Volunteer)</h6>
+                                                        <p class="text-muted">Microverse, December 2020 - Continue</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Quality Control(Volunteer)</h6>
+                                                        <p class="text-muted">FullBridge Inc, Remote,
+                                                            August 2019 – February 2020</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Coach Assistant/Mentor(Volunteer)</h6>
+                                                        <p class="text-muted">FullBridge Inc, Remote, August 2019 – February 2020</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Engagement Influencer</h6>
+                                      <p class="text-muted">The Misk Foundation, Remote, March 2020 – December 2020</p>
+                                                      <hr class="mt-4 mb-4">
+                                                 </div>
+                                         <div>
+                                          <h6>Coach Assistant/Mentor(Volunteer)</h6>
+                                            <p class="text-muted">FullBridge Inc, Remote, August 2019 – February 2020</p>
+                                        <hr class="mt-4 mb-4">
+                                          </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="education">
+                                                <div class="mt-5 mb-5">
+                                                    <h5 class="font-weight-bold text-center text-custom">Education</h5>
+                                                    <hr>
+                                                </div>
+                                                <div>
+                                                    <div>
+                                                        <h6>Full Stack Web Development Program, Remote</h6>
+                                                        <p class="text-muted">MICROVERSE, November 2020 - August 2021</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Language Diploma, French and Spanish.</h6>
+                                                        <p class="text-muted">International Center for Language Resources, 
+                                                            August 2020 – November 2020, March 2021 - November 2021</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                    <div>
+                                                        <h6>Bachelor’s Degree in Soil Science and Land Management</h6>
+                                                        <p class="text-muted">University of Benin, Nigeria. 2015 – 2020</p>
+                                                        <hr class="mt-4 mb-4">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+               
+               
+                <!-- <h2 class="text-center">About me</h2>
                 <div class="row text-center">
                     
                     <div class="col-sm-6">
@@ -92,7 +253,7 @@
                             <p>my mood while working</p>
                         </div>
                 </div>
-                </div>
+                </div> -->
             </section>
 
               <!-- about me end -->
