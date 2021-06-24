@@ -63,8 +63,9 @@
 
 .downloadDiv {
     
-    border: 1px tomato solid;
-    border-radius: 6px;
+    border: 2px tomato solid;
+    border-radius: 15px;
+    width:15%;
 }
 
 .downloadDiv:hover {
