@@ -50,12 +50,16 @@
     border-radius: 3px;
 }
 
+.bg-darker {
+    background-color:darkslategray;
+}
 
 /* footer style */
 
 .footer-logo:hover {
     color: black !important;
     text-decoration: none;
+    
  
 }
 

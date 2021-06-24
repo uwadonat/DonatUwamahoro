@@ -25,5 +25,13 @@ for (let i= 0; i<sections.length; i++) {
 
 }
 
+for (let j= 0; j<sections.length; j++) {
+  sections[j].addEventListener("mouseout", () => {
+    mainLink[j].style.backgroundColor = "black";
+  })
+  
+
+}
+
 
 
