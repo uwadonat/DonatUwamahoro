@@ -60,6 +60,10 @@
     width:20%;
 }
 
+.download:hover {
+    background-color: tomato;
+}
+
 
 /* footer style */
 .section-title {
