@@ -60,7 +60,14 @@
     width:20%;
 }
 
-.download:hover {
+
+.downloadDiv {
+    
+    border: 1px tomato solid;
+    border-radius: 6px;
+}
+
+.downloadDiv:hover {
     background-color: tomato;
 }
 
