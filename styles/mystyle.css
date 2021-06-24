@@ -54,6 +54,13 @@
     background-color:darkslategray;
 }
 
+/* About section style */
+
+.about-img {
+    width:20%;
+}
+
+
 /* footer style */
 .section-title {
     color: black !important;
