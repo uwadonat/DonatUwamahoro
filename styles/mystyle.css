@@ -102,6 +102,9 @@
  
 }
 
+.logo-text {
+    padding: 0 20% 0 20%;
+}
 .social-icon {
     padding:7px;
     border:2px solid black;
