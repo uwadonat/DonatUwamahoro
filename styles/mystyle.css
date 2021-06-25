@@ -54,6 +54,10 @@
     background-color:darkslategray;
 }
 
+.banner {
+    background-image: url("/images/image7.jpg");
+}
+
 /* About section style */
 
 .about-img {
