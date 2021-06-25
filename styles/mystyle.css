@@ -66,6 +66,11 @@
     width: 100%;
 }
 
+.banner-text {
+    padding: 200px 100px 0 100px;
+    
+}
+
 /* About section style */
 
 .about-img {
