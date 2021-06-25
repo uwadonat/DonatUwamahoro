@@ -79,6 +79,7 @@
 }
 
 
+
 .downloadDiv {
     
     border: 2px tomato solid;
@@ -103,7 +104,8 @@
 }
 
 .logo-text {
-    padding: 0 20% 0 20%;
+    padding: 0 25% 0 25%;
+    text-align: justify;
 }
 .social-icon {
     padding:7px;
