@@ -62,12 +62,13 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-    opacity: 0.3;
+   
     width: 100%;
 }
 
 .banner-text {
-    padding: 200px 100px 0 100px;
+    padding: 200px 600px 0 100px;
+    color: black !important;
     
 }
 
