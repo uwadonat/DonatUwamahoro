@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+ 
+}
 .imageTransition {
     
     width: 250px;
@@ -37,4 +42,78 @@
 
 #logodonat:hover {
     color: blue;
+}
+
+
+/* navbar */
+.main-link:hover {
+    background-color: tomato;
+    border-radius: 3px;
+}
+
+.bg-darker {
+    background-color:darkslategray;
+}
+
+.banner {
+    background-image: url("../images/image6.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 650px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+   
+    width: 100%;
+}
+
+.banner-text {
+    padding: 200px 600px 0 100px;
+    color: black !important;
+    
+}
+
+/* About section style */
+
+.about-img {
+    width:20%;
+}
+
+
+
+.downloadDiv {
+    
+    border: 2px tomato solid;
+    border-radius: 15px;
+    width:15%;
+}
+
+.downloadDiv:hover {
+    background-color: tomato;
+}
+
+
+/* footer style */
+.section-title {
+    color: black !important;
+}
+.footer-logo:hover {
+    color: black !important;
+    text-decoration: none;
+    
+ 
+}
+
+.logo-text {
+    padding: 0 25% 0 25%;
+    text-align: justify;
+}
+.social-icon {
+    padding:7px;
+    border:2px solid black;
+    border-radius: 50px;
+  border-color: blue;
+}
+
+.social-icon:hover {
+    background-color:tomato;
 }

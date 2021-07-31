@@ -15,3 +15,23 @@ pendings.addEventListener("mouseover", () => {
 })
 
 
+const mainLink = document.getElementsByClassName("main-link")
+const sections = document.getElementsByClassName("sections")
+for (let i= 0; i<sections.length; i++) {
+  sections[i].addEventListener("mouseover", () => {
+    mainLink[i].style.backgroundColor = "tomato";
+  })
+  
+
+}
+
+for (let j= 0; j<sections.length; j++) {
+  sections[j].addEventListener("mouseout", () => {
+    mainLink[j].style.backgroundColor = "black";
+  })
+  
+
+}
+
+
+
