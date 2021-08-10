@@ -95,6 +95,10 @@
     background-color: tomato;
 }
 
+.contact {
+    width: 60%;
+    margin-bottom: 20px;
+}
 
 /* footer style */
 .section-title {
