@@ -1,4 +1,3 @@
-const pendings = document.getElementById("notDone")
 let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
@@ -9,10 +8,6 @@ myImage.onclick = function() {
       myImage.setAttribute('src','images/image7.jpg');
     }
 }
-
-pendings.addEventListener("mouseover", () => {
-  alert("sorry, not yet");
-})
 
 
 const mainLink = document.getElementsByClassName("main-link")
