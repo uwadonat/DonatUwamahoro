@@ -130,3 +130,9 @@
 .social-icons {
     display: none;
 }
+
+.intro {
+    padding-right: 40%;
+    padding-left: 10%;
+    text-align: justify;
+}
