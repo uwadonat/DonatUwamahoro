@@ -66,12 +66,12 @@
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
-   
     width: 100%;
+    
 }
 
 .banner-text {
-    padding: 200px 600px 0 100px;
+   padding-top: 200px;
     color: black !important;
     
 }
@@ -120,8 +120,13 @@
     border:2px solid black;
     border-radius: 50px;
   border-color: blue;
+ 
 }
 
 .social-icon:hover {
     background-color:tomato;
+}
+
+.social-icons {
+    display: none;
 }
