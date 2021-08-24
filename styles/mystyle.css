@@ -95,6 +95,10 @@
     background-color: tomato;
 }
 
+.resume {
+    margin-left: -13px;
+}
+
 .contact {
     width: 60%;
     margin-bottom: 20px;
